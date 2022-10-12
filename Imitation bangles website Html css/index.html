@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>HF Bangles</title>
+
+</head>
+
+<body>
+    <nav class="navbar background h-nav-resp">
+        <ul class="nav-list v-class-resp">
+            <div class="logo"><img src="img/h.png" alt="logo"></div>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#contact">ContactUs</a></li>
+
+        </ul>
+        <div class="rightNav v-class-resp">
+            <!--input type="text" name="search" id="search"-->
+            <!--button class="btn btn-sm">Search</button-->
+        </div>
+
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+
+        </div>
+    </nav>
+
+    <section class="background firstSection" id="home">
+        <div class="box-main">
+            <div class="firstHalf">
+                <p class="text-b">Bantex Brass Bangles</p>
+                <p class="text-s">Best quality metal bangles is here</p>
+                <div class="buttons">
+                </div>
+            </div>
+            <div class="secondHalf">
+                <img src="img/set.jpg" alt="Bangle Image">
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section" id="products">
+        <div class="paras">
+            <p class="sectionTag text-big">Our Products </p>
+            <p class="sectionSubTag text-small">These ornaments are worn mostly by women in the Indian
+                Bangles may also be worn by young girls or children also. </p>
+
+        </div>
+        <div class="thumbnail">
+            <img src="img/c.jpg" alt="Brass Bangles" class="imgFluid">
+        </div>
+    </section>
+
+    <section class="section section-left">
+
+        <div class="paras">
+
+        <div class="thumbnail-a img">
+            <h1>12 Chudi Set</h1>
+            <a href="12.html"><img src="img/12c.jpg" alt="Brass Bangles" class="imgFluid"></a>
+        </div>
+
+        <div class="row">
+            
+            <div class="thumbnail-a img">
+                <h1>Iron Bangles</h1>
+                <a href="iorn.html"><img src="img/1.jpg" alt="Brass Bangles" class="imgFluid"></a>
+            </div>
+
+            <div class="thumbnail-a img">
+                <h1>Bangle Set</h1>
+                <a href="set.html"><img src="img1/1.5set.jpg" alt="Brass Bangles" class="imgFluid"></a>
+            </div>
+
+
+            <div class="thumbnail-a img">
+                <a href="pokal.html">
+                    <img src="img1/p14.jpg" alt="Brass Bangles" class="imgFluid"></a>
+                    <br><h1>Pokal Bangles</h1>
+
+            
+               
+            </div>
+        </div>
+
+        
+
+    </section>
+
+
+
+
+    <section class="section" id="about">
+        <div class="paras">
+            <p class="sectionTag text-big">About Us</p>
+            <p class="sectionSubTag text-small">Bangles are traditionally rigid bracelets which are usually made of
+                metal, wood, glass or plastic. In our company bangles made by Metal. We make bangles of
+                all sizes or different designs. HF bangles company makes bangles for women, girls or children. Bridel
+                bangles are also create in our company. Bangles made of brass, iron are preferred for toddlers.[citation
+                needed]
+                Some men and women wear a single bangle on the arm or wrist called kada or kara also we create. Client
+                contact us by email <b>zeenatrab@gmail.com</b> or call on <b>9372441798</b> this no. </p>
+
+        </div>
+        <div class="thumbnail">
+            <img src="https://source.unsplash.com/900x900/?bangle" alt="bride bangle" class="imgFluid">
+
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="text-center">Contact Us</h2>
+        <div class="form">
+            <!--form id="form" onsubmit="sendemail(); reset(); return false;"-->
+
+            <form action="https://formspree.io/f/mvoygdqn" method="post">
+
+
+                <input class="form-input" type="text" name="name" id="name" placeholder="Enter Your Name" required>
+                <input class="form-input" type="text" name="phone no" id="phone no" placeholder="Enter Your Phone no"
+                    required>
+                <input class="form-input" type="text" name="emails" id="email" placeholder="Enter Your Email" required>
+                <textarea class="form-input" name="text" id="text" cols="30" rows="10"
+                    placeholder="Ellaborate Your Concer" required></textarea><br>
+                <button class="btn btn-sm btn-dark">Submit</button>
+            </form>
+        </div>
+
+
+
+    </section>
+    <footer class="background">
+        <p class="text-footer">
+            Copyright &copy; 2027 - www.hfbangles.com - All rights reserved
+        </p>
+    </footer>
+    <script src="js/resp.js"></script>
+    <!--script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendemail() {
+
+            Email.send({
+                Host: "smtp.gmail.com",
+                Username: "zeenatrab@gmail.com",
+                Password: "9892692070",
+                To: 'rabzeenat@gmail.com',
+                From: document.getElementById("email").value,
+                Subject: "This is the subject",
+                Body: "hello user"
+            }).then(
+                message => alert(message)
+            );
+        }
+
+    </script-->
+
+</body>
+
+</html>
